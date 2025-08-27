@@ -1,0 +1,11 @@
+# Go
+bin/
+*.test
+*.out
+
+# JetBrains
+.idea/
+*.iml
+
+# Air (si usás hot-reload)
+tmp/
