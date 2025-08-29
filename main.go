@@ -25,7 +25,7 @@ func main() {
 
 	fmt.Println(hola)
 
-	var chau byte = 50
+	var chau int = 50
 
 	fmt.Println(chau)
 
@@ -39,6 +39,14 @@ func main() {
 
 	var caracter string = "b"
 	fmt.Println(caracter)
+
+	if caracter == "b" {
+		fmt.Println("B")
+	}
+
+	if chau > hola {
+		fmt.Println("Adios")
+	}
 
 	fmt.Print("Presioná Enter para salir...")
 	_, _ = bufio.NewReader(os.Stdin).ReadBytes('\n')
