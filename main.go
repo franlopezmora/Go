@@ -21,6 +21,17 @@ func main() {
 		fmt.Println("i =", 100/i)
 	}
 
+	var hola int = 10
+
+	fmt.Println(hola)
+
+	var chau byte = 50
+
+	fmt.Println(chau)
+
+	var caracter string = "b"
+	fmt.Println(caracter)
+
 	fmt.Print("Presioná Enter para salir...")
 	bufio.NewReader(os.Stdin).ReadBytes('\n')
 }
