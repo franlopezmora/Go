@@ -29,9 +29,12 @@ func main() {
 
 	fmt.Println(chau)
 
+	var arrayName = [4]string{"Hola", "Chau", "Chao", "Chao"}
+	fmt.Println(arrayName)
+
 	var caracter string = "b"
 	fmt.Println(caracter)
 
 	fmt.Print("Presioná Enter para salir...")
-	bufio.NewReader(os.Stdin).ReadBytes('\n')
+	_, _ = bufio.NewReader(os.Stdin).ReadBytes('\n')
 }
