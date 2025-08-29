@@ -32,6 +32,11 @@ func main() {
 	var arrayName = [4]string{"Hola", "Chau", "Chao", "Chao"}
 	fmt.Println(arrayName)
 
+	myslice2 := []string{"Go", "Slices", "Are", "Powerful", "No"}
+	fmt.Println(len(myslice2))
+	fmt.Println(cap(myslice2))
+	fmt.Println(myslice2)
+
 	var caracter string = "b"
 	fmt.Println(caracter)
 
