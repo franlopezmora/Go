@@ -6,6 +6,10 @@ import (
 	"os"
 )
 
+func myMessage() {
+	fmt.Println("I just got executed!")
+}
+
 //TIP <p>To run your code, right-click the code and select <b>Run</b>.</p> <p>Alternatively, click
 // the <icon src="AllIcons.Actions.Execute"/> icon in the gutter and select the <b>Run</b> menu item from here.</p>
 
@@ -84,6 +88,8 @@ func main() {
 		}
 		fmt.Println(i)
 	}
+
+	myMessage()
 
 	fmt.Print("Presioná Enter para salir...")
 	_, _ = bufio.NewReader(os.Stdin).ReadBytes('\n')
