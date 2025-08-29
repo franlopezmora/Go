@@ -48,6 +48,43 @@ func main() {
 		fmt.Println("Adios")
 	}
 
+	day := 5
+
+	switch day {
+	case 1, 3, 5:
+		fmt.Println("Odd weekday")
+	case 2, 4:
+		fmt.Println("Even weekday")
+	case 6, 7:
+		fmt.Println("Weekend")
+	default:
+		fmt.Println("Invalid day of day number")
+	}
+
+	fruits := [3]string{"apple", "orange", "banana"}
+
+	for idx, _ := range fruits {
+		fmt.Printf("%v\n", idx)
+	}
+
+	for i := 0; i < 5; i++ {
+		if i == 3 {
+			break
+		}
+		fmt.Println(i)
+	}
+
+	for i := 0; i < 5; i++ {
+		fmt.Println(i)
+	}
+
+	for i := 0; i < 5; i++ {
+		if i == 3 {
+			continue
+		}
+		fmt.Println(i)
+	}
+
 	fmt.Print("Presioná Enter para salir...")
 	_, _ = bufio.NewReader(os.Stdin).ReadBytes('\n')
 }
